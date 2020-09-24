@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+
+  database:
+    container_name: database
+    image: library/postgres:12.4-alpine
+
+  server:
+    container_name: server
+    build: .
+    command: python3 manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/code
+    ports:
+      - '8000:8000'
+    depends_on:
+      - database
