@@ -4,12 +4,19 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
-flake8 = "*"
 isort = "*"
+flake8 = "*"
+q = "*"
 
 [packages]
 psycopg2-binary = "*"
 django = "*"
+djangorestframework = "*"
+markdown = "*"
+django-filter = "*"
+django-rest-auth = "*"
+django-allauth = "*"
+pillow = "*"
 
 [requires]
 python_version = "3.8"

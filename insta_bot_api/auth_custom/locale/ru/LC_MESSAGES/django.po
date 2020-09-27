@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-27 14:35+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: auth_custom/apps.py:7
+msgid "Доступ"
+msgstr "Доступ"
+
+#: templates/account/email/email_confirmation_message.txt:4
+#, python-format
+msgid ""
+"Hello from %(domain)s!\n"
+"\n"
+"    To activate your %(domain)s account for user %(username)s, use this "
+"link:\n"
+"    "
+msgstr ""
+"Приветик от %(domain)s!\n"
+"\n"
+"    Чтобы активировать аккаунт на %(domain)s для пользователя %(username)s (Мы надеемся это ты 😇), клацни по  "
+"ссылке:\n"
+"    "
+
+#: templates/account/email/email_confirmation_message.txt:8
+#, python-format
+msgid ""
+"://%(domain)s/#/register/%(key)s\n"
+"\n"
+"    Всего лучшего!\n"
+"\n"
+"    От команды %(domain).\n"
+"    "
+msgstr ""
+
+#: templates/registration/password_reset_email.html:3
+msgid "Hello,"
+msgstr "Приветик"
+
+#: templates/registration/password_reset_email.html:5
+#, python-format
+msgid "To reset the password for your %(domain)s account, use this link:"
+msgstr "Для сброса пароля по твоему %(domain)s аккаунту, используй ссылку ниже:"
+
+#: templates/registration/password_reset_email.html:9
+msgid "If you didn't request a password reset, ignore this email."
+msgstr "Ааа... И если ты не запрашывал сброс то просто не бери в голову)"
+
+#: templates/registration/password_reset_email.html:11
+msgid "Best regards!"
+msgstr "Всего лучшего!"
+
+#: templates/registration/password_reset_email.html:13
+#, python-format
+msgid "The %(domain)s team"
+msgstr "От комманды %(domain)s"

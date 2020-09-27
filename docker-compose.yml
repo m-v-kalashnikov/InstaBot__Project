@@ -4,14 +4,19 @@ services:
   database:
     container_name: database
     image: library/postgres:12.4-alpine
+    env_file:
+      - ./.env.dev.db
 
   server:
     container_name: server
-    build: .
-    command: python3 manage.py runserver 0.0.0.0:8000
+    build:
+      context: insta_bot_api
+    command: /start.sh
     volumes:
       - .:/code
     ports:
       - '8000:8000'
+    env_file:
+      - ./.env.dev
     depends_on:
       - database
