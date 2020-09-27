@@ -413,5 +413,6 @@ tags
 *.scss.map
 .idea
 *.iml
-out
 gen
+!/insta_bot_api/insta_bot_api/scripts/
+/insta_bot_api/staticfiles/
