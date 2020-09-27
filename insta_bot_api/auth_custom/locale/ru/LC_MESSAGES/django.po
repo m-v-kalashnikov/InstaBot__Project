@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-27 14:35+0000\n"
+"POT-Creation-Date: 2020-09-27 18:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,6 +24,14 @@ msgstr ""
 msgid "Доступ"
 msgstr "Доступ"
 
+#: auth_custom/models.py:7
+msgid "Instagram login"
+msgstr "Логин от Instagram"
+
+#: auth_custom/models.py:12
+msgid "Instagram password"
+msgstr "Пароль от Instagram"
+
 #: templates/account/email/email_confirmation_message.txt:4
 #, python-format
 msgid ""
@@ -35,8 +43,8 @@ msgid ""
 msgstr ""
 "Приветик от %(domain)s!\n"
 "\n"
-"    Чтобы активировать аккаунт на %(domain)s для пользователя %(username)s (Мы надеемся это ты 😇), клацни по  "
-"ссылке:\n"
+"    Чтобы активировать аккаунт на %(domain)s для пользователя %(username)s "
+"(Мы надеемся это ты 😇), клацни по ссылке:\n"
 "    "
 
 #: templates/account/email/email_confirmation_message.txt:8
@@ -44,20 +52,21 @@ msgstr ""
 msgid ""
 "://%(domain)s/#/register/%(key)s\n"
 "\n"
-"    Всего лучшего!\n"
+"    Best regards!\n"
 "\n"
-"    От команды %(domain).\n"
+"    The %(domain)s team.\n"
 "    "
 msgstr ""
 
 #: templates/registration/password_reset_email.html:3
 msgid "Hello,"
-msgstr "Приветик"
+msgstr "Приветик."
 
 #: templates/registration/password_reset_email.html:5
 #, python-format
 msgid "To reset the password for your %(domain)s account, use this link:"
-msgstr "Для сброса пароля по твоему %(domain)s аккаунту, используй ссылку ниже:"
+msgstr ""
+"Для сброса пароля по твоему %(domain)s аккаунту, используй ссылку ниже:"
 
 #: templates/registration/password_reset_email.html:9
 msgid "If you didn't request a password reset, ignore this email."
