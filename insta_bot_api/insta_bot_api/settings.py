@@ -56,6 +56,8 @@ SITE_ID = 1
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'  # 'django.core.mail.backends.smtp.EmailBackend'  <-- for production
 
+EMAIL_FILE_PATH = BASE_DIR / 'mediafiles/email_out/'
+
 EMAIL_HOST = 'smtp.eu.mailgun.org'
 
 EMAIL_USE_TLS = True

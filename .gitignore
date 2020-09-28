@@ -416,3 +416,4 @@ tags
 gen
 !/insta_bot_api/insta_bot_api/scripts/
 /insta_bot_api/staticfiles/
+/insta_bot_api/mediafiles/
